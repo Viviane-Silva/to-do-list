@@ -1,13 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+}
 
-.container{
-    background-color: #d1d1dd;
-    width: 500px;
-    border-radius:  10px; 
+/*
+Visual da Paleta:
+#65c4f0 (Azul Claro)
+#e9edf1 (Cinza Claro)
+#357ABD (Azul Escuro)
+#d5d9dc (Cinza Escuro)
+*/
+
+body {
+    background: url("./img/wp9718841.png");
+    background-size: cover;           /* Faz a imagem cobrir toda a tela */
+    background-repeat: no-repeat;     /* Evita que a imagem se repita */
+}
+
+.container {
+    background-color: #e9edf1;
+    width: 600px;
+    border-radius: 10px;
     padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 100px auto 0;
 }
 
-img{
-    height: 21px;
+
+.task-input {
+    border: none;
+    border-radius: 8px;
+    padding-left: 10px;
+    width: 300px;
+    height: 30px;
 }
+
+.task-button {
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    background-color: #65c4f0;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0 15px;
+    float: right;
+    cursor: pointer;
+}
+
+.task-button:hover {
+    background-color: #357ABD;
+    opacity: 0.8;
+}
+
+.task-button:active{
+    opacity: 0.6;
+}
+
+.task-list{
+    list-style: none;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.task{
+    background-color: #d5d9dc;
+    box-shadow: 1px 4px 10p rgba(0, 0, 0, 0.2);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+img {
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;       /* ease-in-out serve para suavilizar a transição */
+}
+.task:hover img {
+    opacity: 1;
+}
+

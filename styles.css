@@ -18,6 +18,8 @@ body {
     background: url("./img/wp9718841.png");
     background-size: cover;           /* Faz a imagem cobrir toda a tela */
     background-repeat: no-repeat;     /* Evita que a imagem se repita */
+    background-position: center;    
+    height: 100vh;                /* Garante que o fundo cubra 100% da altura da viewport */
 }
 
 .container {

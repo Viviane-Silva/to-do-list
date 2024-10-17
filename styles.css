@@ -89,3 +89,7 @@ img {
     opacity: 1;
 }
 
+.feito{
+    background-color: #9de9a1;
+    text-decoration: line-through;
+}

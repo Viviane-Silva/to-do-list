@@ -10,8 +10,8 @@ Uma simples aplicação de lista de tarefas onde o usuário pode adicionar, remo
 
 ## Funcionalidades
 
-- Adicionar novas tarefas
-- Remover tarefas
-- Marcar tarefas como concluídas
+- Adicionar novos itens na lista
+- Remover itens
+- Marcar itens como concluídas
 
 
